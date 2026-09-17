@@ -47,7 +47,8 @@ Columns:
 - issue_summary (TEXT): free-text description of the issue
 
 Notes:
-- Unresolved tickets means status is 'Open' or 'Escalated'.
+- The word "open" in a question usually means status = 'Open' specifically, not Escalated.
+- The word "unresolved" or "not resolved" means status IN ('Open', 'Escalated').
 - Treat the dataset's most recent created_at as "now" since this is historical data.
 """
 
